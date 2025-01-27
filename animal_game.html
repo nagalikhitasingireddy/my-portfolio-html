@@ -1,0 +1,277 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Sounds</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            background: linear-gradient(to bottom, #a8e6ff, #ffd3e1);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff69b4;
+            font-size: 3rem;
+            margin: 20px 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 0 20px;
+        }
+
+        .animal {
+            background: white;
+            border: 3px solid #ffcccb;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .animal:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .animal img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .animal p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animal Sounds</h1>
+    <div class="container">
+       
+        <div class="animal" id="cow">
+            <img src="https://cdn.pixabay.com/photo/2014/08/23/11/33/cow-425164_1280.jpg" alt="cow">
+            <p>Cow</p>
+        </div>
+    
+        <div class="animal" id="dog">
+            <img src="https://cdn.pixabay.com/photo/2023/08/18/15/02/dog-8198719_1280.jpg" alt="dog">
+            <p>Dog</p>
+        </div>
+
+        <div class="animal" id="cat">
+            <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg" alt="cat">
+            <p>Cat</p>
+        </div>
+   
+        <div class="animal" id=" lion">
+            <img src="https://cdn.pixabay.com/photo/2017/10/05/18/35/lion-2820443_1280.jpg" alt="lion">
+            <p>Lion</p>
+        </div>
+   
+        <div class="animal" id=" fox">
+            <img src="https://cdn.pixabay.com/photo/2016/11/20/11/49/fox-1842565_1280.jpg" alt="fox">
+            <p>Fox</p>
+        </div>
+    
+        <div class="animal" id=" elephant">
+            <img src="https://cdn.pixabay.com/photo/2022/09/17/14/28/asian-elephant-7461079_960_720.jpg" alt="elephant">
+            <p>Elephant</p>
+        </div>
+   
+        <div class="animal" id=" monkey">
+            <img src="https://cdn.pixabay.com/photo/2023/02/07/13/39/monkey-7774171_1280.jpg" alt="monkey">
+            <p>Monkey</p>
+        </div>
+  
+    </div>
+    <script>
+        cow=document.getElementById("cow");
+        cow.addEventListener('click',function(){
+            audio=new Audio("cow-mooing-loudly-223546.mp3");
+            audio.play();
+        });
+    dog=document.getElementById("dog");
+        dog.addEventListener('click',function(){
+            audio=new Audio("barking-large-and-small-dog-290711.mp3");
+            audio.play();
+        }
+    );  
+    cat=document.getElementById("cat");
+        cat.addEventListener('click',function(){
+            audio=new Audio("sound-effect-cat-meow-279336.mp3");
+            audio.play();
+        }
+    );  
+    lion=document.getElementById("lion");
+        lion.addEventListener('click',function(){
+            audio=new Audio("tiger-roar-loudly-193229.mp3");
+            audio.play();
+        }
+    );  
+    elephant=document.getElementById("elephant");
+        elephant.addEventListener('click',function(){
+            audio=new Audio("elephant-225994.mp3");
+            audio.play();
+        }
+    );  
+    fox=document.getElementById("fox");
+        fox.addEventListener('click',function(){
+            audio=new Audio("wolf-howl-268619.mp3");
+            audio.play();
+        }
+    );  
+    monkey=document.getElementById("monkey");
+        monkey.addEventListener('click',function(){
+            audio=new Audio("monkey-scream-6407.mp3");
+            audio.play();
+        }
+    );  
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Sounds</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-image: url('Screenshot 2025-01-26 062315.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff4500;
+            font-size: 3.5rem;
+            text-shadow: 2px 2px #ffa500;
+            margin: 20px 0;
+            animation: bounce 2s infinite alternate;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 0 auto;
+            max-width: 900px;
+            padding: 20px;
+        }
+
+        .animal {
+            background: #ccf5c4;
+            border: 5px solid #094713;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .animal:hover {
+            transform: scale(1.1) rotate(-3deg);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .animal img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .animal p {
+            margin: 10px 0 0;
+            font-size: 1.4rem;
+            color: #ff6347;
+            font-weight: bold;
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-15px);
+            }
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #555;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Animal Sounds</h1>
+    <div class="container">
+        <div class="animal" id="cow">
+            <img src="https://cdn.pixabay.com/photo/2014/08/23/11/33/cow-425164_1280.jpg" alt="cow">
+            <p>Cow</p>
+        </div>
+        <div class="animal" id="dog">
+            <img src="https://cdn.pixabay.com/photo/2023/08/18/15/02/dog-8198719_1280.jpg" alt="dog">
+            <p>Dog</p>
+        </div>
+        <div class="animal" id="cat">
+            <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg" alt="cat">
+            <p>Cat</p>
+        </div>
+        <div class="animal" id="lion">
+            <img src="https://cdn.pixabay.com/photo/2017/10/05/18/35/lion-2820443_1280.jpg" alt="lion">
+            <p>Lion</p>
+        </div>
+        <div class="animal" id="fox">
+            <img src="https://cdn.pixabay.com/photo/2016/11/20/11/49/fox-1842565_1280.jpg" alt="fox">
+            <p>Fox</p>
+        </div>
+        <div class="animal" id="elephant">
+            <img src="https://cdn.pixabay.com/photo/2022/09/17/14/28/asian-elephant-7461079_960_720.jpg" alt="elephant">
+            <p>Elephant</p>
+        </div>
+        <div class="animal" id="monkey">
+            <img src="https://cdn.pixabay.com/photo/2023/02/07/13/39/monkey-7774171_1280.jpg" alt="monkey">
+            <p>Monkey</p>
+        </div>
+    </div>
+    <footer>
+        Tap on an animal to hear its sound!
+    </footer>
+    <script>
+        const sounds = {
+            cow: "cow-mooing-loudly-223546.mp3",
+            dog: "barking-large-and-small-dog-290711.mp3",
+            cat: "sound-effect-cat-meow-279336.mp3",
+            lion: "tiger-roar-loudly-193229.mp3",
+            elephant: "elephant-225994.mp3",
+            fox: "wolf-howl-268619.mp3",
+            monkey: "monkey-scream-6407.mp3"
+        };
+
+        document.querySelectorAll('.animal').forEach(animal => {
+            animal.addEventListener('click', () => {
+                const audio = new Audio(sounds[animal.id]);
+                audio.play();
+            });
+        });
+    </script>
+</body>
+</html>
+
